@@ -8,6 +8,7 @@ services:
       MOD_PLATFORM: MODRINTH
       VERSION: "1.20.1"
       NEOFORGE_VERSION: "47.1.106"
+      NEOFORGE_FORCE_REINSTALL: "true"
       MODRINTH_MODPACK: "/modpacks/kamoulox.mrpack"
 
     ports:
