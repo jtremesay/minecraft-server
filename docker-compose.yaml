@@ -3,7 +3,7 @@ services:
   minecraft:
     image: killruana/minecraft-server
     environment:
-      EULA: true
+      EULA: "true"
       TYPE: "FORGE"
       MOD_PLATFORM: MODRINTH
       VERSION: "1.20.1"
