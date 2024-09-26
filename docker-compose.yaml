@@ -4,7 +4,7 @@ services:
     image: killruana/minecraft-server:main
     environment:
       EULA: "true"
-      TYPE: "FORGE"
+      TYPE: "NEOFORGE"
       MOD_PLATFORM: MODRINTH
       VERSION: "1.20.1"
       NEOFORGE_VERSION: "latest"
