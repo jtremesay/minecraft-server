@@ -12,12 +12,8 @@ services:
 
     ports:
       - "25565:25565"
-    volumes:
-      - minecraft-data:/data
-      - minecraft-mods:/modpacks
-
+    volumes: #      - minecraft-data:/data
 volumes:
-  minecraft-data:
-  minecraft-mods:
+  # minecraft-data:
 
 
